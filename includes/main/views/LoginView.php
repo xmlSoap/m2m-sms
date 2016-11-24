@@ -2,11 +2,11 @@
 
 require_once __DIR__ . '/AbstractView.php';
 
-final class IndexView extends AbstractView
-{
 
+final class LoginView extends AbstractView
+{
 	public function __construct($smarty)
 	{
-		parent::__construct('index', 'Index', $smarty);
+		parent::__construct('login', 'Login', $smarty);
 	}
 }
